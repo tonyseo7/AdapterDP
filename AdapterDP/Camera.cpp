@@ -19,5 +19,5 @@ string Camera::TakeAPicture(string subject)
 
 void Camera::UpgradeFirmWare(ImageProessor *_img_processor)
 {
-	_img_processor = _img_processor;
+	img_processor = _img_processor;
 }

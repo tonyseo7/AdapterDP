@@ -13,7 +13,7 @@ WrapAImageProcessor::~WrapAImageProcessor()
 
 void WrapAImageProcessor::SetSubject(string _subject)
 {
-	ai_processor->FindStart();
+	ai_processor->SetOrigin(_subject);
 }
 
 void WrapAImageProcessor::FindBegin()
